@@ -6,6 +6,8 @@ import bcrypt from "bcrypt";
 import session from "express-session";
 import MySQLStore from "express-mysql-session";
 
+//proba
+
 const MySQLSessionStore = MySQLStore(session);
 const app = express();
 const port = 3000;
